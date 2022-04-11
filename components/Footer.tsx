@@ -68,11 +68,14 @@ const Footer = (): JSX.Element => {
           </Link>
         ))}
       </FooterGrid>
-      <Text margin={0} fontSize="0.9rem" color="rgba(0, 0, 0, 0.7)">
+      <Text
+        margin={0}
+        fontSize="0.9rem"
+        color="rgba(0, 0, 0, 0.7)"
+        fontWeight={700}
+      >
         © {new Date().getFullYear()} Cristian Lenta 🙏
-        <Link href="https://github.com/shellbear" style={{ fontWeight: '400' }}>
-          shellbear
-        </Link>
+        <Link href="https://github.com/shellbear">shellbear</Link>
       </Text>
     </StyledFooter>
   );

@@ -48,9 +48,11 @@ const Home = (): JSX.Element => (
         }}
       >
         <Container>
-          <Text textAlign="center" style={{ color: 'white', padding: '5px' }}>
-            I&apos;m an early stage Web 3.0 Founder & Software Developer. All in
-            on blockchain.
+          <Text
+            textAlign="center"
+            style={{ color: 'white', padding: '0px 10px' }}
+          >
+            Early stage Web 3.0 Founder & Software Dev. All in on blockchain.
           </Text>
           <Container
             style={{

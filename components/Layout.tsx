@@ -28,7 +28,7 @@ const Layout: React.FC<LayoutProps> = ({
         <meta property="og:title" content="Cristian Lenta" />
         <meta
           property="og:description"
-          content="I'm an early stage Web3.0 Founder & Software Developer. All in on blockchain."
+          content="Early stage Web3.0 Founder & Software Developer. All in on blockchain."
         />
         <meta property="og:type" content="website" />
         <meta property="twitter:site" content="@CristiansenL" />
