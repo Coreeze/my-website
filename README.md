@@ -1,11 +1,4 @@
-# [shellbear.me](https://shellbear.me/)
-
-Source code of my personal website & blog ✨
-
-Check the live version [here](https://shellbear.me/) ⚡️
-
-[![home](./.github/img/home.png)](https://shellbear.me/)
-[![blog](./.github/img/blog.png)](https://shellbear.me/)
+Source code of my personal website & blog
 
 ## ✨ Features
 
@@ -49,3 +42,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## 🗝 License
 
 This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details.
+
+Thank you [shellbear.me](https://shellbear.me/)
