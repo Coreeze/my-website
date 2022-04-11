@@ -11,11 +11,10 @@ import {
   SiGooglecloud,
   SiReact,
   SiPython,
-  SiGithub,
 } from 'react-icons/si';
 import { FaHardHat } from 'react-icons/fa';
 import { getPosts, Post } from '@posts';
-import { TransparentLink } from '@components';
+// import { TransparentLink } from '@components';
 
 interface AboutProps {
   experiences: Post[];

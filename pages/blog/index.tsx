@@ -1,20 +1,20 @@
 import Head from 'next/head';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import { GetStaticPropsResult, NextPage } from 'next';
 import { NotionAPI } from 'notion-client';
 
 import { getPageInfo, Page, POSTS } from '@posts/notion';
-import { Title, Link, Container, Grid, Card, Image, Text } from '@components';
+import { Title, Container, Text } from '@components';
 
 interface BlogProps {
   pages: Page[];
 }
 
-const BlogImage = styled(Image)`
-  border-radius: 5px;
-`;
+// const BlogImage = styled(Image)`
+//   border-radius: 5px;
+// `;
 
-const Blog: NextPage<BlogProps> = ({ pages }) => {
+const Blog: NextPage<BlogProps> = () => {
   return (
     <Container maxWidth={1200}>
       <Head>

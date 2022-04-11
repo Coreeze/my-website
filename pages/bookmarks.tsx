@@ -3,13 +3,13 @@ import Head from 'next/head';
 import { GetStaticPropsResult } from 'next';
 import Image from 'next/image';
 import TimeAgo from 'javascript-time-ago';
-import { compact } from 'lodash';
+// import { compact } from 'lodash';
 import { NotionAPI } from 'notion-client';
-import { NotionRenderer } from 'react-notion-x';
+// import { NotionRenderer } from 'react-notion-x';
 import { Title, Container, Text, Grid, Link, Card } from '@components';
 
 import en from 'javascript-time-ago/locale/en.json';
-import { QueryDatabaseResponse } from '@notionhq/client/build/src/api-endpoints';
+// import { QueryDatabaseResponse } from '@notionhq/client/build/src/api-endpoints';
 // import { getBookmarks } from '../notion';
 
 TimeAgo.addDefaultLocale(en);
@@ -121,9 +121,9 @@ const getBookmarks = async () => {
   return recordMap;
 };
 
-const displayBookmarks = ({ recordMap }: any) => (
-  <NotionRenderer recordMap={recordMap} fullPage={true} darkMode={false} />
-);
+// const displayBookmarks = ({ recordMap }: any) => (
+//   <NotionRenderer recordMap={recordMap} fullPage={true} darkMode={false} />
+// );
 
 export const getServerSideProps = async (): Promise<
   GetStaticPropsResult<BookmarksProps>

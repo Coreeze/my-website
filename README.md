@@ -1,4 +1,5 @@
-Source code of my personal website & blog
+Source code of my personal website & blog.
+Code really needs to be cleaned up & improved, but hey, it works ;)
 
 ## ✨ Features
 

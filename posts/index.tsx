@@ -5,7 +5,7 @@ import matter from 'gray-matter';
 import { serialize } from 'next-mdx-remote/serialize';
 import { MDXRemoteSerializeResult } from 'next-mdx-remote';
 
-const baseDir = path.join(process.cwd(), './posts/');
+// const baseDir = path.join(process.cwd(), './posts/');
 
 export interface Post {
   source: MDXRemoteSerializeResult;
@@ -15,7 +15,7 @@ export interface Post {
 
 const getPosts = (): Promise<Post[]> => {
   // const contentGlob = path.join(path.join(baseDir, dir), '/*.mdx');
-  const contentGlob = `experiences/*.mdx`;
+  // const contentGlob = `experiences/*.mdx`;
   const files = glob.sync('**/*.mdx');
   // console.log('GETPOSTS: ', files);
 
